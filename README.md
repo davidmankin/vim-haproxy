@@ -8,8 +8,7 @@
 2. Add the following to your `.vimrc` file:
 
   ```vim
-  Bundle 'RobbieClarken/vim-haproxy'
-  autocmd BufRead,BufNewFile haproxy* set ft=haproxy
+  Bundle 'davidmankin/vim-haproxy'
   ```
   
 3. Run `vim +BundleInstall +qall`.
